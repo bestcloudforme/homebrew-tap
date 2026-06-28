@@ -5,12 +5,12 @@
 class Dbac < Formula
   desc "A CLI tool for managing multiple databases, users, and permissions"
   homepage "https://github.com/bestcloudforme/dbac"
-  version "0.0.8"
+  version "0.0.9"
   license "GPL-3.0"
 
   on_macos do
-    url "https://github.com/bestcloudforme/dbac/releases/download/v0.0.8/dbac_0.0.8_darwin_amd64.tar.gz"
-    sha256 "d5e9674b523423c484f6f6607ab094ec9b2a05b0a65a167cdb25b57cb56bc57f"
+    url "https://github.com/bestcloudforme/dbac/releases/download/v0.0.9/dbac_0.0.9_darwin_amd64.tar.gz"
+    sha256 "5f849b4f232a8ed563d92ccedb4f4e3b185a8ff98ad8e255c791359a8ef4b30c"
 
     def install
       bin.install "dbac"
@@ -30,8 +30,8 @@ class Dbac < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/bestcloudforme/dbac/releases/download/v0.0.8/dbac_0.0.8_linux_amd64.tar.gz"
-        sha256 "44d8bf4d91ae5d85e074c99a17dfdd6d34739809108c620a8f8e07797bc89dbd"
+        url "https://github.com/bestcloudforme/dbac/releases/download/v0.0.9/dbac_0.0.9_linux_amd64.tar.gz"
+        sha256 "83878c9d1f9ac976051f0ce945a4e3f28cc0987bec856416b071dead3dccb6bc"
 
         def install
           bin.install "dbac"
